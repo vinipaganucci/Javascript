@@ -27,6 +27,7 @@
 
         h1{
             font-size: 4em;
+            color: yellow;
         }
 
         p{
@@ -38,15 +39,17 @@
 <body>
     <div>
         <h1>Olá Mundo!</h1>
-        <p>Já me livrei da maldição...</p>
+        <p>Já me livrei da maldição...</p> 
     </div>
 
     
     <script>
-        //window.alert("Minha primera mensagem")
-        //window.confirm("Está gostando de Javascript?")
-        window.prompt("Qual é seu nome?")
+        var n1 = Number(window.prompt("Digite um número: "))
+        var n2 = Number(window.prompt("Digite outro número: "))
+        var soma = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é ${soma}`)
 
+        
     </script>
 </body>
 </html>
