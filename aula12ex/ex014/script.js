@@ -2,8 +2,7 @@ function carregar(){
     var msg = document.getElementById('msg')
     var img = document.getElementById('img')
     var data = new Date()
-    //var hora = data.getHours()
-    var hora = 0
+    var hora = data.getHours()
     msg.innerHTML = `It's now ${hora} o'clock.`
    
     if(hora >= 6 && hora < 12){
