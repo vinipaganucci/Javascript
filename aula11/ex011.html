@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+    <label for="pais">Digite seu país:</label>
+    <input type="text" id="pais">
+    <button id="ver" onclick="clicar()">Verificar</button>
+    <div id="res">Resultado</div>
+
+    <script>
+        
+        function clicar(){
+            var pais = document.querySelector('input#pais')
+       
+            var result = document.getElementById('res')
+            if(pais.value.toLowerCase() == 'brasil'){
+                result.innerHTML = 'Brasileiro!'
+            }
+
+            else{
+                result.innerHTML = 'Estrangeiro!'
+            }
+        }
+    </script>
+</body>
+</html>
