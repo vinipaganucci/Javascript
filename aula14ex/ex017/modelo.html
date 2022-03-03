@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Horas do Dia</title>
+    <title>Tabuada</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Título</h1>
+        <h1>Tabuada</h1>
     </header>
     <section>
         <div>
-            
+            <label for="tabuada">Digite um número: </label>
+            <input type="number" name="txtnum" id="txtnum">
+            <button onclick="calcular()">Calcular</button>
         </div>
-        <div>
-            
+        <div id="res">
+            <select name="tabuada" id="select" size="10">
+                <option value="" id="tabu">---TABUADA---</option>
+            </select>
         </div>
     </section>
     <footer>
