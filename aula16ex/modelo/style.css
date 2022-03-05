@@ -19,7 +19,7 @@ section{
     background-color: white;
     border-radius: 30px;
     width: 500px;
-    height: 400px;
+    height: fit-content;
     color: black;
     font-size: 0.9em;
     box-shadow: -2px 3px 9px black;
@@ -29,7 +29,7 @@ section{
 select{
     margin-top: 15px;
     margin-bottom: 15px;
-    width: 100px;
+    width: 150px;
     height: 100px;
 
 }
